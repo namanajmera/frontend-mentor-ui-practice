@@ -3,7 +3,7 @@ import Image from "next/image";
 const BlogPreviewCard = () => {
     return (
         <div className="flex justify-center items-center h-screen text-[#111111]">
-            <div className="bg-white p-[24] rounded-2xl w-[384] h-[522] space-y-10 shadow-[8px_8px_0_0_#000] border border-gray-950">
+            <div className="bg-white p-[24px] rounded-2xl w-[384px] h-[522px] space-y-10 shadow-[8px_8px_0_0_#000] border border-gray-950">
                 <Image
                     src={"/blog-images/illustration-article.svg"}
                     alt="Test"
@@ -11,7 +11,7 @@ const BlogPreviewCard = () => {
                     width={336}
                     className="rounded-xl"
                 />
-                <div className="w-[336] h-[194] space-y-5">
+                <div className="w-[336px] h-[194px] space-y-5">
                     {/* <div className="w-[82] h-[29] bg-[#F4D04E] rounded-xm px-2"> */}
                         <span className="inline-block bg-[#F4D04E] text-sm font-extrabold leading-[150%] px-2 py-1 rounded-sm text-gray-950">Learning</span>
                     {/* </div> */}
