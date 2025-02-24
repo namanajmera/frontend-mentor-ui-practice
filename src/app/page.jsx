@@ -22,6 +22,14 @@ export default function Home() {
             Social links profile
           </Link>
         </li>
+        <li className="flex justify-center items-center space-x-2 flex-col">
+          <Link
+            href={"/recipe-page"}
+            className="hover:underline hover:text-red-600 text-blue-500"
+          >
+            Recipe page
+          </Link>
+        </li>
       </ul>
     </div>
   );
