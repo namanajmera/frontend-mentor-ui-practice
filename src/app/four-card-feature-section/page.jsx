@@ -15,9 +15,9 @@ const FourCardFeatureSection = () => {
 
             {/* Card Container */}
             <div className="flex flex-col space-y-10 lg:flex-row lg:space-x-10 lg:space-y-0 lg:justify-center lg:items-center">
-                <div className="bg-white rounded-lg space-y-5 p-5 border-t-4 border-t-[#45d3d3] w-full h-52 lg:w-80">
+                <div className="bg-white rounded-lg space-y-5 p-5 border-t-4 border-t-[#45d3d3] w-full h-56 lg:w-96">
                     <div>
-                        <span>Supervisor</span>
+                        <span className="text-xl font-bold">Supervisor</span>
                         <p>Monitors activity to identify project roadblocks</p>
                     </div>
                     <img
@@ -27,9 +27,9 @@ const FourCardFeatureSection = () => {
                     />
                 </div>
                 <div className="flex flex-col justify-center items-center space-y-10">
-                    <div className="bg-white rounded-lg space-y-5 p-5 border-t-4 border-t-[#ea5353] w-full h-52 lg:w-80">
+                    <div className="bg-white rounded-lg space-y-5 p-5 border-t-4 border-t-[#ea5353] w-full h-56 lg:w-96">
                         <div>
-                            <span>Team Builder</span>
+                            <span className="text-xl font-bold">Team Builder</span>
                             <p>
                                 Scans our talent network to create the optimal team for your
                                 project
@@ -41,9 +41,9 @@ const FourCardFeatureSection = () => {
                             className="float-right"
                         />
                     </div>
-                    <div className="bg-white rounded-lg space-y-5 p-5 border-t-4 border-t-[#fcaf4a] w-full h-52 lg:w-80">
+                    <div className="bg-white rounded-lg space-y-5 p-5 border-t-4 border-t-[#fcaf4a] w-full h-56 lg:w-96">
                         <div>
-                            <span>Karma</span>
+                            <span className="text-xl font-bold">Karma</span>
                             <p>Regularly evaluates our talent to ensure quality</p>
                         </div>
                         <img
@@ -53,9 +53,9 @@ const FourCardFeatureSection = () => {
                         />
                     </div>
                 </div>
-                <div className="bg-white rounded-lg space-y-5 p-5 border-t-4 border-t-[#549ef2] w-full h-52 lg:w-80">
+                <div className="bg-white rounded-lg space-y-5 p-5 border-t-4 border-t-[#549ef2] w-full h-56 lg:w-96">
                     <div>
-                        <span>Calculator</span>
+                        <span className="text-xl font-bold">Calculator</span>
                         <p>
                             Uses data to analyze previous projects and provide insights for
                             your project
