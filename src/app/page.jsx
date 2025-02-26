@@ -30,6 +30,14 @@ export default function Home() {
             Recipe page
           </Link>
         </li>
+        <li className="flex justify-center items-center space-x-2 flex-col">
+          <Link
+            href={"/product-preview-card"}
+            className="hover:underline hover:text-red-600 text-blue-500"
+          >
+            Product Preview Card
+          </Link>
+        </li>
       </ul>
     </div>
   );
