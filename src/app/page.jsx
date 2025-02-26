@@ -38,6 +38,14 @@ export default function Home() {
             Product Preview Card
           </Link>
         </li>
+        <li className="flex justify-center items-center space-x-2 flex-col">
+          <Link
+            href={"/four-card-feature-section"}
+            className="hover:underline hover:text-red-600 text-blue-500"
+          >
+            Four Card Feature Section
+          </Link>
+        </li>
       </ul>
     </div>
   );

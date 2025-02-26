@@ -15,6 +15,7 @@ export default {
         outfit: "var(--font-outfit), sans-serif",
         montserrat: "var(--font-montserrat), sans-serif",
         fraunces: "var(--font-fraunces), sans-serif",
+        poppins: "var(--font-poppins), sans-serif",
       },
     },
   },
