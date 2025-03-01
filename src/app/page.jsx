@@ -54,6 +54,14 @@ export default function Home() {
             Testimonials Grid Section Main
           </Link>
         </li>
+        <li className="flex justify-center items-center space-x-2 flex-col">
+          <Link
+            href={"/article-preview-component-master"}
+            className="hover:underline hover:text-red-600 text-blue-500"
+          >
+            Article Preview Component Master
+          </Link>
+        </li>
       </ul>
     </div>
   );

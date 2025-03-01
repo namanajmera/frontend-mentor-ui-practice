@@ -17,6 +17,7 @@ export default {
         fraunces: "var(--font-fraunces), sans-serif",
         poppins: "var(--font-poppins), sans-serif",
         barlowSemiCondensed: "var(--font-barlowSemiCondensed), sans-serif",
+        manrope: "var(--font-manrope), sans-serif",
       },
     },
   },
