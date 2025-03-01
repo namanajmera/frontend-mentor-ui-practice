@@ -16,6 +16,7 @@ export default {
         montserrat: "var(--font-montserrat), sans-serif",
         fraunces: "var(--font-fraunces), sans-serif",
         poppins: "var(--font-poppins), sans-serif",
+        barlowSemiCondensed: "var(--font-barlowSemiCondensed), sans-serif",
       },
     },
   },

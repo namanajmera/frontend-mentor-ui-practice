@@ -46,6 +46,14 @@ export default function Home() {
             Four Card Feature Section
           </Link>
         </li>
+        <li className="flex justify-center items-center space-x-2 flex-col">
+          <Link
+            href={"/testimonials-grid-section-main"}
+            className="hover:underline hover:text-red-600 text-blue-500"
+          >
+            Testimonials Grid Section Main
+          </Link>
+        </li>
       </ul>
     </div>
   );
